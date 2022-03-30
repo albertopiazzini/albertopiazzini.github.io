@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+}
+.homepage{
+  display: flex;
+  background-image: url("img/sfondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 92.2vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+
+.logo-navbar{
+  font-size: 1.5em;
+}
+
+
+
+.titolo {
+  text-align: center;
+  color: #1E96FC;
+  text-decoration: underline;
+}
+.contenitore {
+  padding: 10px;
+  background-color: #A2D6F9;
+  display: flex;
+  width: 70%;
+  margin: 10px auto;
+  justify-content: center;
+  border-radius: 25px;
+  margin-bottom: 120px;
+
+}
+.row {
+  align-items: center;
+}
+
+.foto-progetto {
+  width:80%;
+  margin: 5px;
+
+}
+.descrizione p {
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .descrizione p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.1em;
+  }
+  .foto-progetto {
+    width: 50%;
+    margin: 5px;
+  }
+
+
+  .about-me p{
+    font-size: 1.1em;
+  }
+
+  .contact p {
+    font-size: 1.1em;
+
+  }
+
+
+}
+
+
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 30px;
+}
+.about-me p{
+  font-size: 1.2em;
+}
+.about-me a {
+  color: inherit;
+}
+.logo {
+  width: 50px;
+  margin: 8px;
+}
+
+.contatti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact {
+  flex-direction: column;
+}
+
+.contact p {
+  font-size: 1.2em;
+}
+
+  .icone {
+    width: 28px;
+    height: 22px;
+  }
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.parole-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+ .contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenitore p {
+  font-family: serif;
+}
