@@ -108,6 +108,13 @@ body {
 
 }
 
+@media screen and (max-width: 400px) {
+  .ImgAlbe {
+
+  width: 55%;
+  }
+}
+
 
 
 .about-me {
