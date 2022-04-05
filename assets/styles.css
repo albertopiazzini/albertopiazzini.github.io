@@ -85,7 +85,7 @@ body {
     font-size: 1.1em;
   }
   .foto-progetto {
-    width: 50%;
+    width: 40%;
     margin: 5px;
   }
 
@@ -113,6 +113,10 @@ body {
 
   width: 55%;
   }
+  .foto-progetto {
+    width: 65%;
+  }
+
 }
 
 
