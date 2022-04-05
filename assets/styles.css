@@ -36,7 +36,7 @@ body {
   margin-bottom: 120px;
 }
 .ImgAlbe {
-  width: 28%;
+  width: 25%;
 }
 
 .logo-navbar{
@@ -68,8 +68,8 @@ body {
 
 .foto-progetto {
   width:80%;
-  margin: 5px;
-
+  margin: 10px;
+  border: 3px outset #1E96FC;
 }
 .descrizione p {
   text-align: left;
@@ -102,7 +102,7 @@ body {
   width: 85%;
 }
 .ImgAlbe {
-  width: 45%;
+  width: 35%;
 }
 
 
@@ -176,4 +176,7 @@ footer {
 
 .contenitore p {
   font-family: amiri;
+}
+.thanks {
+  font-size: 0.9em;
 }
