@@ -35,6 +35,10 @@ body {
   flex-direction: column;
   margin-bottom: 120px;
 }
+.titolo-celeste {
+  color:#1E96FC;
+}
+
 .ImgAlbe {
   width: 25%;
 }
