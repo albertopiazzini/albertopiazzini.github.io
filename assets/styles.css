@@ -3,17 +3,17 @@
 
 @font-face {
   font-family: "amiri";
-  src: url("amiri/Amiri-Regular.ttf");
+  src: url("Font-amiri/Amiri-Regular.ttf");
   font-style: normal;
 }
 @font-face {
   font-family: "amiri";
-  src: url("amiri/Amiri-Italic.ttf");
+  src: url("Font-amiri/Amiri-Italic.ttf");
   font-style: italic;
 }
 @font-face {
   font-family: "amiri";
-  src: url("amiri/Amiri-Bold.ttf");
+  src: url("Font-amiri/Amiri-Bold.ttf");
   font-style: normal;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .homepage{
   display: flex;
-  background-image: url("img/sfondo.jpg");
+  background-image: url("img/background.jpg");
   background-size: cover;
   background-position: center center;
   height: 92.2vh;
@@ -35,11 +35,11 @@ body {
   flex-direction: column;
   margin-bottom: 120px;
 }
-.titolo-celeste {
+.blue-title {
   color:#1E96FC;
 }
 
-.ImgAlbe {
+.ImgAlberto {
   width: 25%;
 }
 
@@ -49,14 +49,14 @@ body {
 
 
 
-.titolo {
+.title {
   text-align: center;
   color: #1E96FC;
   font-family: amiri;
   font-weight: bold;
   font-size: 2em;
 }
-.contenitore {
+.box {
   padding: 15px;
   background-color: #A2D6F9;
   display: flex;
@@ -70,12 +70,12 @@ body {
   align-items: center;
 }
 
-.foto-progetto {
+.photo-project {
   width:80%;
   margin: 10px;
   border: 3px outset #1E96FC;
 }
-.descrizione p {
+.description p {
   text-align: left;
   font-size: 1.2em;
   line-height: 18px;
@@ -83,12 +83,12 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .descrizione p {
+  .description p {
     text-align: center;
     margin-top: 5px;
     font-size: 1.1em;
   }
-  .foto-progetto {
+  .photo-project {
     width: 40%;
     margin: 5px;
   }
@@ -102,10 +102,10 @@ body {
     font-size: 1.1em;
 
   }
-.contenitore {
+.box {
   width: 85%;
 }
-.ImgAlbe {
+.ImgAlberto {
   width: 35%;
 }
 
@@ -113,11 +113,11 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .ImgAlbe {
+  .ImgAlberto {
 
   width: 55%;
   }
-  .foto-progetto {
+  .photo-project {
     width: 65%;
   }
 
@@ -147,12 +147,6 @@ body {
   margin: 8px;
 }
 
-.contatti {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .contact {
   flex-direction: column;
 }
@@ -163,7 +157,7 @@ body {
 
 }
 
-  .icone {
+  .icon {
     width: 28px;
     height: 22px;
   }
@@ -171,7 +165,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.parole-footer {
+.words-footer {
   display: flex;
   flex-direction: row;
 }
@@ -182,7 +176,7 @@ footer {
   font-family: amiri;
 }
 
-.contenitore p {
+.box p {
   font-family: amiri;
 }
 .thanks {
