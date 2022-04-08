@@ -112,7 +112,7 @@ body {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .ImgAlberto {
 
   width: 55%;
@@ -120,7 +120,12 @@ body {
   .photo-project {
     width: 65%;
   }
-
+  .sticky-mobile {
+    position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  }
 }
 
 
