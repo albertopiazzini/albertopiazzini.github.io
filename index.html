@@ -16,6 +16,29 @@
     <link rel="stylesheet" href="assets/styles.css">
     <title> Alberto Piazzini</title>
 
+<!-- EMAIL JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   <script type="text/javascript">
+       (function() {
+           // https://dashboard.emailjs.com/admin/integration
+           emailjs.init('9I_X5eZUBTFluUN0U');
+       })();
+   </script>
+   <script type="text/javascript">
+       window.onload = function() {
+           document.getElementById('contact-form').addEventListener('submit', function(event) {
+               event.preventDefault();
+               // these IDs from the previous steps
+               emailjs.sendForm('contact_service', 'contact_form', this)
+                   .then(function() {
+                       console.log('SUCCESS!');
+                   }, function(error) {
+                       console.log('FAILED...', error);
+                   });
+           });
+       }
+   </script>
+
   </head>
   <body>
 
@@ -103,12 +126,18 @@
   <h3 class="title" id="contact">Contact</h3>
 
   <div class="box contact">
-    <p class="contact">If you want to know me better you can contact me here:</p>
 
-    <div class=""> <img src="assets/img/phone.svg" alt="telefono"> 3409519513 </div>
-    <div class=""> <img src="assets/img/email.svg" alt="e-mail"> <a href="mailto:albepiazzo@gmail.com"> albepiazzo@gmail.com </a> </div>
+    <h6>If you want to contact me please get this form, thank you!</h6>
 
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" name="user_name" required>
+      <input type="email" id="email" placeholder="Email Id" name="user_email" required>
+      <input type="text" id="phone" placeholder="Phone No." name="contact_number" required>
+      <textarea id="message" rows="4" placeholder="How can i help you?" name="message"></textarea>
+      <button type="submit" value="Send" >SEND</button>
+   </form>
   </div>
+
 </main>
 <p class="thanks">thanks for your attention!</p>
 <!-- FOOTER -->
