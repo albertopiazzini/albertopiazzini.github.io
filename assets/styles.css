@@ -99,7 +99,8 @@ body {
   }
 
   .contact p {
-    font-size: 1.1em;
+    font-size: 1em;
+    margin-top:5px;
 
   }
 .box {
@@ -159,8 +160,9 @@ body {
 }
 
 .contact p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: amiri;
+  margin-top: 7px;
 
 }
 
@@ -177,7 +179,7 @@ form {
 
 }
 form input, form textarea {
-  border:0px;
+  border:2px solid #1E96FC;
   margin: 10px 0;
   padding: 10px;;
   outline: none;
@@ -208,11 +210,7 @@ footer {
   flex-direction: row;
 }
 
- .contact a {
-  text-decoration: none;
-  color: black;
-  font-family: amiri;
-}
+
 
 .box p {
   font-family: amiri;

@@ -31,7 +31,7 @@
                // these IDs from the previous steps
                emailjs.sendForm('contact_service', 'contact_form', this)
                    .then(function() {
-                     alert('Nice, you triggered this alert message!', 'success');
+                     alert('Nice, the message has been successfully sent', 'success');
                      console.log('SUCCESS!');
                    }, function(error) {
                        console.log('FAILED...', error);
@@ -128,7 +128,7 @@
 
   <div class="box contact">
 
-    <h6>If you want to contact me please get this form, thank you!</h6>
+    <p>If you want to contact me please fill out the form, I will reply quickly!</p>
 
     <form id="contact-form">
       <input type="text" id="name" placeholder="Your Name" name="user_name" required>
