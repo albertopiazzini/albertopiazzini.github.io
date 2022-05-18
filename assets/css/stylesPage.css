@@ -10,7 +10,7 @@ main {
   align-items: center;
   flex-direction: column;
   overflow: auto;
-  height: 80vh;
+  height: 100%;
 }
 
 .box {
@@ -21,7 +21,7 @@ main {
 @media screen and (max-width: 500px) {
   main {
     margin-top: 80px;
-    height: 100vh;
+
 
 }
 }
