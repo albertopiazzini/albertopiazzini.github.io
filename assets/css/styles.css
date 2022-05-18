@@ -196,7 +196,9 @@ form button {
   border-radius: 30px;
   font-family: amiri;
 }
-
+#buttonSubmit:hover {
+  background-color: #44A9FF
+}
 
 footer {
   display: flex;
@@ -219,6 +221,4 @@ footer {
 #liveAlertPlaceholder {
   position: relative;
   top:10px;
-
-
 }
