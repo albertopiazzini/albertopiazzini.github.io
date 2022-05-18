@@ -1,6 +1,3 @@
-
-
-
 @font-face {
   font-family: "amiri";
   src: url("Font-amiri/Amiri-Regular.ttf");
@@ -26,7 +23,7 @@ body {
 
 .homepage{
   display: flex;
-  background-image: url("img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-size: cover;
   background-position: center center;
   height: 92.2vh;
@@ -222,6 +219,6 @@ footer {
 #liveAlertPlaceholder {
   position: relative;
   top:10px;
-  
+
 
 }
