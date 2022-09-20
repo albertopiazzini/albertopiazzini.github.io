@@ -52,12 +52,9 @@ body {
 .welcome {
   font-family: amiri;
   font-style: italic;
+  margin: 30px;
 }
-.arrow-down {
-  width: 50px;
-  margin: 20px;
-  cursor: pointer;
-}
+
 .box {
   padding: 15px;
   background-color: #a2d6f9;
