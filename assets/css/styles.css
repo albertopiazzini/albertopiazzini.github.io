@@ -19,9 +19,7 @@ body {
   font-family: amiri;
 }
 
-
-
-.homepage{
+.homepage {
   display: flex;
   background-image: url("../img/background.jpg");
   background-size: cover;
@@ -33,44 +31,56 @@ body {
   margin-bottom: 120px;
 }
 .blue-title {
-  color:#1E96FC;
+  color: #1e96fc;
 }
 
 .ImgAlberto {
   width: 25%;
 }
 
-.logo-navbar{
+.logo-navbar {
   font-size: 1.5em;
 }
 
-
-
 .title {
   text-align: center;
-  color: #1E96FC;
+  color: #1e96fc;
   font-family: amiri;
   font-weight: bold;
   font-size: 2em;
 }
+.welcome {
+  font-family: amiri;
+  font-style: italic;
+}
+.arrow-down {
+  width: 50px;
+  margin: 20px;
+  cursor: pointer;
+}
 .box {
   padding: 15px;
-  background-color: #A2D6F9;
+  background-color: #a2d6f9;
   display: flex;
   width: 70%;
   margin: 10px auto;
   justify-content: center;
   border-radius: 25px;
   margin-bottom: 120px;
+  transition: transform 1s, opacity 1s;
+}
+.box--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 .row {
   align-items: center;
 }
 
 .photo-project {
-  width:80%;
+  width: 80%;
   margin: 10px;
-  border: 3px outset #1E96FC;
+  border: 3px outset #1e96fc;
 }
 .description p {
   text-align: left;
@@ -90,43 +100,36 @@ body {
     margin: 5px;
   }
 
-
-  .about-me p{
+  .about-me p {
     font-size: 1.1em;
   }
 
   .contact p {
     font-size: 1em;
-    margin-top:5px;
-
+    margin-top: 5px;
   }
-.box {
-  width: 85%;
-}
-.ImgAlberto {
-  width: 35%;
-}
-
-
+  .box {
+    width: 85%;
+  }
+  .ImgAlberto {
+    width: 35%;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .ImgAlberto {
-
-  width: 55%;
+    width: 55%;
   }
   .photo-project {
     width: 65%;
   }
   .sticky-mobile {
     position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: white;
+    top: 0;
+    width: 100%;
+    background-color: white;
   }
 }
-
-
 
 .about-me {
   display: flex;
@@ -135,11 +138,9 @@ body {
   flex-wrap: wrap;
   line-height: 30px;
   font-family: amiri;
-
 }
 
-
-.about-me p{
+.about-me p {
   font-size: 1.2em;
 }
 .about-me a {
@@ -160,25 +161,24 @@ body {
   font-size: 1.1em;
   font-family: amiri;
   margin-top: 7px;
-
 }
 
-  .icon {
-    width: 28px;
-    height: 22px;
-  }
+.icon {
+  width: 28px;
+  height: 22px;
+}
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-form input, form textarea {
-  border:2px solid #1E96FC;
+form input,
+form textarea {
+  border: 2px solid #1e96fc;
   margin: 10px 0;
-  padding: 10px;;
+  padding: 10px;
   outline: none;
   width: 85%;
   max-width: 500px;
@@ -186,7 +186,7 @@ form input, form textarea {
 }
 form button {
   padding: 13px;
-  background:#1E96FC;
+  background: #1e96fc;
   color: black;
   border: 0;
   outline: none;
@@ -197,7 +197,7 @@ form button {
   font-family: amiri;
 }
 #buttonSubmit:hover {
-  background-color: #44A9FF
+  background-color: #44a9ff;
 }
 
 footer {
@@ -209,8 +209,6 @@ footer {
   flex-direction: row;
 }
 
-
-
 .box p {
   font-family: amiri;
 }
@@ -220,5 +218,5 @@ footer {
 
 #liveAlertPlaceholder {
   position: relative;
-  top:10px;
+  top: 10px;
 }
