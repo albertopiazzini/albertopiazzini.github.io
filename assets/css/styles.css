@@ -162,36 +162,6 @@ body {
   }
 }
 
-@media screen and (max-width: 500px) {
-  .ImgAlberto {
-    width: 55%;
-  }
-  .photo-project {
-    width: 200px;
-    height: 150px;
-  }
-  .sticky-mobile {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: white;
-  }
-  .welcome {
-    font-size: 1rem;
-  }
-
-  @keyframes typing {
-    0%,
-    90%,
-    100% {
-      width: 0;
-    }
-    30%,
-    60% {
-      width: 363.27px;
-    }
-  }
-}
 #soft-skills {
   position: relative;
   bottom: 28px;
@@ -332,4 +302,46 @@ footer {
 #liveAlertPlaceholder {
   position: relative;
   top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .ImgAlberto {
+    width: 55%;
+  }
+  .photo-project {
+    width: 200px;
+    height: 150px;
+  }
+  .sticky-mobile {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .welcome {
+    font-size: 1rem;
+  }
+
+  @keyframes typing {
+    0%,
+    90%,
+    100% {
+      width: 0;
+    }
+    30%,
+    60% {
+      width: 363.27px;
+    }
+  }
+  .marquee span {
+    line-height: 120px;
+    font-size: 25px;
+    animation: marquee 18s linear infinite;
+  }
+  .marquee-w {
+    height: 120px;
+  }
+  .marquee2 span {
+    animation-delay: 9s;
+  }
 }
