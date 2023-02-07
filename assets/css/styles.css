@@ -145,6 +145,8 @@ body {
 
 .banner {
   background-color: #1e96fc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +154,7 @@ body {
   height: 120px;
   margin-bottom: 100px;
 }
-.banner span {
+.text-scroll {
   font-size: 40px;
   text-transform: uppercase;
   color: whitesmoke;
