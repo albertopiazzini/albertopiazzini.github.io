@@ -177,7 +177,7 @@ body {
     background-color: white;
   }
   .welcome {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   @keyframes typing {
@@ -188,11 +188,8 @@ body {
     }
     30%,
     60% {
-      width: 404.92px;
+      width: 363.27px;
     }
-  }
-  .marquee span {
-    font-size: 30px;
   }
 }
 #soft-skills {
