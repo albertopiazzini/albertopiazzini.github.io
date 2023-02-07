@@ -148,9 +148,6 @@ body {
   text-transform: uppercase;
   color: whitesmoke;
 }
-.tic {
-  color: blue;
-}
 
 @media screen and (max-width: 992px) {
   .description p {
@@ -298,5 +295,14 @@ footer {
     60% {
       width: 363.27px;
     }
+  }
+  .banner {
+    height: 100px;
+    margin-bottom: 100px;
+  }
+  .banner span {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: whitesmoke;
   }
 }
