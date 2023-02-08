@@ -30,6 +30,10 @@ body {
   flex-direction: column;
   margin-bottom: 120px;
 }
+
+.logo-navbar {
+  width: 65px;
+}
 .blue-title {
   color: #1e96fc;
 }
