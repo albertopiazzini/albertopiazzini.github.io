@@ -28,34 +28,7 @@ allBox.forEach((box) => {
   box.classList.add("box--hidden");
 });
 
-//// NAV BAR OPACITY
-/*
-const nav = document.querySelector(".navbar");
-
-const opacityNavLinks = function (e, opacity) {
-  const link = e.target;
-  const siblings = document.querySelectorAll(".nav-link");
-  console.log(siblings);
-  const logo = document.querySelector(".logo-navbar");
-
-  if (link.classList.contains(".nav-link")) {
-    siblings.forEach((el) => {
-      if (el !== link) el.style.opacity = opacity;
-      //logo.style.opacity = opacity;
-    });
-  }
-};
-
-nav.addEventListener("mouseover", function (e) {
-  console.log("in");
-  opacityNavLinks(e, 0.5);
-});
-
-nav.addEventListener("mouseout", function (e) {
-  console.log("out");
-  opacityNavLinks(e, 1);
-});
-*/
+/// CLICK PROJECT'S IMAGE
 
 // mail
 
