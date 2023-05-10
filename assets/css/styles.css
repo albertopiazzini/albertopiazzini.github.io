@@ -190,7 +190,7 @@ body {
 }
 
 .box-about-me {
-  padding: 20px;
+  padding: 30px;
 }
 
 .about-me {
@@ -302,6 +302,9 @@ footer {
   }
   .welcome {
     font-size: 1rem;
+  }
+  .box-about-me {
+    padding: 22px;
   }
 
   @keyframes typing {
