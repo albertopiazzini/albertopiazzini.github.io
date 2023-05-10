@@ -290,6 +290,11 @@ footer {
     width: 200px;
     height: 150px;
   }
+
+  .img-container {
+    width: 230px;
+    height: 150px;
+  }
   .sticky-mobile {
     position: fixed;
     top: 0;
