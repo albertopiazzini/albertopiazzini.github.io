@@ -297,7 +297,7 @@ footer {
     top: 0;
     width: 100%;
     background-color: white;
-    z-index: 5;
+    z-index: 9999;
   }
   .welcome {
     font-size: 1rem;
