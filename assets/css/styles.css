@@ -131,7 +131,7 @@ body {
 */
 
 .box {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   margin-top: 30px;
   transition: transform 1s, opacity 1s;
   width: 100%;
